@@ -21,18 +21,11 @@ export default function App() {
               <Route path="/Users/:id" element={<UserPage/>} />
               <Route path='/Dashboard/*' element={<Dashboard />}>
                   <Route path='welcome' element={<p>welcome...!!!</p>} />
-                  <Route path='goodbye' element={<p>goodbye...!!!</p>} />
+                  <Route path='goodbye' element={<p>goodbye..............!!!</p>} />
               </Route>
               <Route path='*' element={<NotFoundPage/>}/>
           </Routes>
-      </BrowserRouter>
-  
-
-
-
-
-  
-
+      </BrowserRouter>  
   );
 }
 
